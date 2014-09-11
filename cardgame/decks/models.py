@@ -13,6 +13,7 @@ class DeckManager(models.Manager):
 
 class Deck(models.Model):
     user = models.ForeignKey(User)
+    description = models.TextField(null=True, blank=True)
     cards = models.ManyToManyField(Card)
     name = models.CharField(max_length=150)
 
