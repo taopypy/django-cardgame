@@ -11,7 +11,7 @@ class Card(models.Model):
 
     name = models.CharField(max_length=50)
     description = models.TextField(null=True, blank=True)
-    image = models.ImageField(upload_to="/cards/%Y/%m/%d/")
+    image = models.ImageField(upload_to="cards/%Y/%m/%d/")
     power = models.IntegerField(default=1)
     life = models.IntegerField(default=1)
     mana = models.IntegerField(default=1)
