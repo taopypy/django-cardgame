@@ -29,6 +29,7 @@ pip-log.txt
 .tox
 nosetests.xml
 cover/*.*
+media/
 example/cover/*.*
 _build/*.*
 _build
