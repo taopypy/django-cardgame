@@ -2,7 +2,13 @@ from django.db import models
 
 
 class Card(models.Model):
-    CHOICES=(("TE","Terra"),("FO","Fogo"),("AG","Agua"),("AR","Ar"),("SA","Sagrado"),("DE","Demoniaca"))
+    CHOICES = (("TE", "Terra"),
+               ("FO", "Fogo"),
+               ("AG", "Agua"),
+               ("AR", "Ar"),
+               ("SA", "Sagrado"),
+               ("DE", "Demoniaca"))
+
     name = models.CharField(max_length=50)
     image = models.ImageField(upload_to="cards")
     power = models.IntegerField(default=1)
@@ -12,18 +18,3 @@ class Card(models.Model):
 
     def __unicode__(self):
         return self.name
-
-class Effect(models.Model):
-    name = models.CharField(max_length=150)
-    description = models.CharField(max_length=250)
-
-
-class Magia(models.Model):
-    effect = models.ForeignKey(Effect)
-    name = models.CharField(max_length=150)
-    description = models.CharField(max_length=250)
-
-
-
-
-
