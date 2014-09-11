@@ -10,7 +10,6 @@ Regras
 - Cada Jogador tem 20 pontos de vida.
 - Cada jogador tem que criar um ou mais decks de cartas.
 - Cada carta possui 2 attributos (ataque, vida, elemento)
-- Elemento da carta (terra, fogo, água, ar, sagrado, demoniaca)
 - O gasto de mana de cada carta é referente ao maior atributo que ele criou.
 - O usuário só pode selecionar uma Magia extra para cada carta.
 - Cada Deck não pode fechar com mais de 2 cartas com a mesma mágia.
@@ -20,6 +19,6 @@ com os pontos armazenados das cartas.
 - No seu turno, o jogador pode usar ataque as cartas algumas cartas podem ter poderes atingir o personagem.
 - Ganha a partida quem acabar com todos os pontos de vida do oponente.
 - Além de ataques físicos, podem ser usadas cartas em seus turnos para ataque, defesa ou mudança de status. Categorias de cartas:
-    - Magia (terra, fogo, água, ar, sagrado, demoniaca)
+    - Elemento  (terra, fogo, água, ar, sagrado, demoniaca)
     - Status Negativo (dormir, veneno, etc…)
     - Status Positivo (cura, recuperação de mana)

@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 class Card(models.Model):
     CHOICES=(("TE","Terra"),("FO","Fogo"),("AG","Agua"),("AR","Ar"),("SA","Sagrado"),("DE","Demoniaca"))
     name = models.CharField(max_length=50)
