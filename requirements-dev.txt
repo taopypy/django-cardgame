@@ -1,0 +1,17 @@
+CherryPy==3.5.0
+Django==1.6.7
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
+Pillow==2.5.1
+PyYAML==3.10
+Werkzeug==0.9.6
+argparse==1.2.1
+djangorestframework==2.4.2
+glob2==0.4.1
+itsdangerous==0.24
+jasmine==2.0.1
+jasmine-core==2.0.2
+ordereddict==1.1
+six==1.7.3
+wsgiref==0.1.2
